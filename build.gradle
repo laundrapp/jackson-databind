@@ -32,7 +32,7 @@ dependencies {
 sourceSets {
     main {
         java {
-            srcDirs = ['src/main/java', 'target/generated-sources/com/fasterxml/jackson/databind/cfg'] // change this to point to where your src code lives
+            srcDirs = ['src/main/java', 'target/generated-sources'] // change this to point to where your src code lives
         }
     }
 }
